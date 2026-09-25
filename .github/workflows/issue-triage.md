@@ -100,6 +100,17 @@ Define when to recommend each suggested-team label:
 - suggested-team/developer-experience
 - suggested-team/support-triage
 -->
+Categrize the bug report as follows:
+
+- priority/p0 - complete outag eor unrecoverable loss
+- priority/p1 - blocking bug with no workaroud
+- priority/p1 - low impact bug or major bug with workaround
+
+Suggest team routing:
+
+- suggested/worflows - Actions workflow failure
+- suggested/developer-excercise - Need to reach out directly for more information
+- suggested/support-triage - 
 
 ## 4. Find duplicates and related issues
 
@@ -126,16 +137,15 @@ Suggest one focused next step when the evidence supports it.
 
 ## 7. Report
 
-<!-- TODO 3:
 Define a concise maintainer-facing report containing:
+
 - a 1–2 sentence summary
 - type and priority with brief evidence
 - a suggested-team label and simulated inline-code team tag
 - approval status set to "Pending maintainer review"
-- up to two similar issues when useful
+- up to two similar issues when useful and add clickable links where possible
 - one focused next step
 
 For an incomplete issue, replace speculative classification with focused
 clarifying questions while retaining the routing recommendation and approval
 status when supported. Keep the entire comment under 300 words.
--->
